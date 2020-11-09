@@ -19,6 +19,7 @@ function findMatches(wordsTomatch, restaurants) {
 
 function displayMatches(){
     const matchArray = findMatches(this.value, suggestions)
+
     const html = matchArray.map(cat => {
         return `
             <li>
