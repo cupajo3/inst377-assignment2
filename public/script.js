@@ -32,6 +32,7 @@ function displayMatches(){
     suggestionList.innerHTML = html;
 }
 
+
 const searchInput = document.querySelector('.textInput')
 const suggestionList = document.querySelector('.suggestionList')
 
